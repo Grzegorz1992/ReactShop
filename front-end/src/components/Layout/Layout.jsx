@@ -4,19 +4,24 @@ import { Logo } from "../Logo/Logo";
 import { MainMenu } from "../MainMenu/MainMenu";
 import { IconMenu } from "../IconMenu/IconMenu";
 import { TopBar } from "../TopBar/TopBar";
+import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
+import { MainContent } from "../MainContent/MainContent";
 
-export function Layout() {
+export function Layout({ children }) {
 	return (
 		<>
-			<TopBar>
-				<MainMenu />
-				<Logo />
-				<div>
-					<CurrencySelector />
-					<IconMenu />
-				</div>
-			</TopBar>
-
+			<MainContent>
+				<TopBar>
+					<MainMenu />
+					<Logo />
+					<div>
+						<CurrencySelector />
+						<IconMenu />
+					</div>
+				</TopBar>
+				<CategoryMenu />
+				{children}
+			</MainContent>
 			<Footer />
 		</>
 	);
