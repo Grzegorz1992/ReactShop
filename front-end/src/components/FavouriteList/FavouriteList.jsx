@@ -1,5 +1,5 @@
 import { CenteredContent } from "../CenteredContent/CenteredContent";
-import { FavourtieProduct } from "../FavouriteProduct/FavouriteProduct";
+import { FavouriteProduct } from "../FavouriteProduct/FavouriteProduct";
 import styles from "./FavouriteList.module.css";
 
 export function FavouriteList({ products }) {
@@ -9,7 +9,7 @@ export function FavouriteList({ products }) {
 				<h2>Ulubione</h2>
 				<div>
 					{products.map((product) => {
-						return <FavourtieProduct key={product.id} product={product} />;
+						return <FavouriteProduct key={product.id} product={product} />;
 					})}
 				</div>
 			</div>
