@@ -1,7 +1,7 @@
 import { Hero } from "../../components/Hero/Hero";
 import { Layout } from "../../components/Layout/Layout";
 import COVER_PHOTO from "../../assets/hero.jpg";
-import { BestSellers } from "../../components/BestSellers/BestSellers";
+import { Products } from "../../components/Products/Products";
 export function MainPage() {
 	const products = [
 		{
@@ -84,7 +84,7 @@ export function MainPage() {
 	return (
 		<Layout>
 			<Hero heroImage={COVER_PHOTO} />
-			<BestSellers products={products} />
+			<Products headerText="Sprawdź nasze bestsellery" products={products} />
 		</Layout>
 	);
 }
