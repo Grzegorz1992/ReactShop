@@ -7,7 +7,7 @@
 .thumbnails img {
 	width: 85px;
 	height: 120px;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .thumbnails img.active {
@@ -15,6 +15,6 @@
 }
 
 .mainPhoto {
-    width: 500px;
-    height: 700px;
+	width: 500px;
+	height: 700px;
 }

@@ -1,8 +1,10 @@
 import { Layout } from "../../components/Layout/Layout";
+import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu";
 import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
-import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { Photos } from "../../components/Photos/Photos";
+import { Details } from "../../components/Details/Details";
+
 export function ProductDetails() {
 	const product = {
 		id: 1,
@@ -23,13 +25,17 @@ export function ProductDetails() {
 		maintenanceInfo:
 			"Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
 	};
+
 	return (
 		<Layout>
 			<FlexContainer>
 				<ExpandableMenu />
-				<div>
+				<div style={{ width: "100%" }}>
 					<Breadcrumbs />
-					<Photos product={product} />
+					<FlexContainer>
+						<Photos product={product} />
+						<Details product={product} />
+					</FlexContainer>
 				</div>
 			</FlexContainer>
 		</Layout>
