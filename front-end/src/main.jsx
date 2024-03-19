@@ -6,6 +6,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Cart } from "./views/Cart/Cart.jsx";
 import { Favourites } from "./views/Favourites/Favourites.jsx";
 import { Layout } from "./components/Layout/Layout.jsx";
+import { MainPage } from "./views/MainPage/MainPage.jsx";
+import { mainPageLoader } from "./api/mainPageLoader.js";
+import { ProductsList } from "./views/ProductsList/ProductsList.jsx";
+import { productListLoader } from "./api/productListLoader.js";
 
 const router = createBrowserRouter([
 	{
@@ -19,6 +23,16 @@ const router = createBrowserRouter([
 			{
 				path: "/ulubione",
 				element: <Favourites />,
+			},
+			{
+				path: "/:gender?",
+				element: <MainPage />,
+				loader: mainPageLoader,
+			},
+			{
+				path: "/:gender/:category/:subcategory?",
+				element: <ProductsList />,
+				loader: productListLoader,
 			},
 		],
 	},
