@@ -6,33 +6,35 @@ import { Pagination } from "../../components/Pagination/Pagination";
 import { useLoaderData, useParams } from "react-router-dom";
 import { CATEGORIES } from "../../constants/categories";
 export function ProductsList() {
-	const { products, numberOfPages } = useLoaderData();
-	const params = useParams();
+    const { products, numberOfPages } = useLoaderData();
 
-	const foundCategory = CATEGORIES.find((c) => c.path === params.category);
-	let foundSubcategory;
+    const params = useParams();
 
-	if (params.subcategory) {
-		foundSubcategory = foundCategory.subcategories.find(
-			(sc) => sc.path === params.subcategory
-		);
-	}
+    const foundCategory = CATEGORIES.find((c) => c.path === params.category);
 
-	return (
-		<FlexContainer>
-			<ExpandableMenu />
-			<div>
-				<Breadcrumbs />
-				<Products
-					headerText={
-						foundSubcategory
-							? foundSubcategory.categoryName
-							: foundCategory.categoryName
-					}
-					products={products}
-				/>
-				<Pagination numberOfPages={numberOfPages} />
-			</div>
-		</FlexContainer>
-	);
+    let foundSubcategory;
+
+    if (params.subcategory) {
+        foundSubcategory = foundCategory.subcategories.find(
+            (sc) => sc.path === params.subcategory
+        );
+    }
+
+    return (
+        <FlexContainer>
+            <ExpandableMenu />
+            <div>
+                <Breadcrumbs />
+                <Products
+                    headerText={
+                        foundSubcategory
+                            ? foundSubcategory.categoryName
+                            : foundCategory.categoryName
+                    }
+                    products={products}
+                />
+                <Pagination numberOfPages={numberOfPages} />
+            </div>
+        </FlexContainer>
+    );
 }
