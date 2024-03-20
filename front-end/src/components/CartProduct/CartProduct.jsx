@@ -4,6 +4,7 @@ import { Price } from "../Price/Price";
 
 export function CartProduct({ product }) {
 	const price = <Price product={product} />;
+
 	return (
 		<div className={styles.favouriteProduct}>
 			<img src={product.photos[0]} />

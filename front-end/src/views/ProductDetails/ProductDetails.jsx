@@ -6,18 +6,18 @@ import { Details } from "../../components/Details/Details";
 import { useLoaderData } from "react-router-dom";
 
 export function ProductDetails() {
-	const product = useLoaderData();
+    const product = useLoaderData();
 
-	return (
-		<FlexContainer>
-			<ExpandableMenu />
-			<div style={{ width: "100%" }}>
-				<Breadcrumbs />
-				<FlexContainer>
-					<Photos product={product} />
-					<Details product={product} />
-				</FlexContainer>
-			</div>
-		</FlexContainer>
-	);
+    return (
+        <FlexContainer>
+            <ExpandableMenu />
+            <div style={{ width: "100%" }}>
+                <Breadcrumbs />
+                <FlexContainer>
+                    <Photos product={product} />
+                    <Details product={product} />
+                </FlexContainer>
+            </div>
+        </FlexContainer>
+    );
 }
