@@ -15,6 +15,7 @@ import { productLoader } from "./api/productLoader";
 import { addProductToFavourites } from "./api/addProductToFavouritesAction";
 import { favouritesLoader } from "./api/favouritesLoader";
 import { deleteFavouriteAction } from "./api/deleteFavouriteAction";
+import { Checkout } from "./views/Checkout/Checkout";
 
 const router = createBrowserRouter([
     {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
                 element: <ProductDetails />,
                 loader: productLoader,
             },
+            {
+                path: "/zamowienie",
+                element: <Checkout/>
+            }
         ],
     },
 ]);
