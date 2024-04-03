@@ -1,3 +1,10 @@
+import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
+import { FormPersonalData } from "../../components/FormPersonalData/FormPersonalData";
+
 export function Checkout() {
-    return <p>hello</p>
+	return (
+		<FlexContainer>
+			<FormPersonalData />
+		</FlexContainer>
+	);
 }
