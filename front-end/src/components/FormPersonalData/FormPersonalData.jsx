@@ -1,20 +1,41 @@
+import styles from "./FormPersonalData.module.css";
 export function FormPersonalData() {
 	return (
-		<form>
-			<div>
-				<div>
-					<label htmlFor="name">IMIĘ:</label>
-					<input type="text" id="name" name="name" />
+		<>
+      
+			<form className={styles.form}>
+            <h2>Informacje dotyczące danych osobowych</h2>
+				<div className={styles.personalDataContainer}>
+					<div className={styles.inputContainer}>
+						<label htmlFor="name">IMIĘ:</label>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							placeholder="Wprowadź imię..."
+						/>
+					</div>
+					<div className={styles.inputContainer}>
+						<label htmlFor="surname">NAZWISKO:</label>
+						<input
+							type="text"
+							id="surname"
+							name="surname"
+							placeholder="Wprowadź nazwisko..."
+						/>
+					</div>
 				</div>
-				<div>
-					<label htmlFor="surname">NAZWISKO:</label>
-					<input type="text" id="surname" name="surname" />
+				<div className={styles.inputContainer}>
+					<label htmlFor="email">ADRES E-MAIL:</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Twój adres e-mail"
+                        className={styles.emailInput}
+					/>
 				</div>
-			</div>
-			<div>
-				<label htmlFor="email">ADRES E-MAIL:</label>
-				<input type="email" id="email" name="email" />
-			</div>
-		</form>
+			</form>
+		</>
 	);
 }
