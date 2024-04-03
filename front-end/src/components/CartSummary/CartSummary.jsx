@@ -5,6 +5,7 @@ import CAR_ICON from "../../assets/car.svg";
 import { useContext } from "react";
 import { CurrencyContext } from "../../contexts/CurrencyContext";
 import { CURRENCIES, CURRENCY_SIGN } from "../../constants/currencies";
+import { Link } from "react-router-dom";
 
 export function CartSummary({ products }) {
     const [currency] = useContext(CurrencyContext);
@@ -56,7 +57,10 @@ export function CartSummary({ products }) {
                     {currencySign}
                 </p>
             </div>
+            <Link to={"/zamowienie"}>
             <FullWidthButton isBlack={true}>Do kasy</FullWidthButton>
+            </Link>
+           
             <div className={styles.deliveryInfo}>
                 <img src={CAR_ICON} />
                 <p>
