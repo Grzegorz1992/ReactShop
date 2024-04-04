@@ -1,13 +1,14 @@
-import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
+import { CartCheckBox } from "../../components/CartCheckBox/CartCheckBox";
+import { FormContainer } from "../../components/FormContainer/FormContainer";
 import { FormCustomerAddress } from "../../components/FormCustomerAddress/FormCustomerAddress";
 import { FormPersonalData } from "../../components/FormPersonalData/FormPersonalData";
 
 export function Checkout() {
 	return (
-		<FlexContainer>
+		<FormContainer>
 			<FormPersonalData />
-
 			<FormCustomerAddress />
-		</FlexContainer>
+			<CartCheckBox />
+		</FormContainer>
 	);
 }
