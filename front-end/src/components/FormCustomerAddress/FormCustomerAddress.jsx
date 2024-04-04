@@ -3,19 +3,20 @@ import styles from "./FormCustomerAddress.module.css";
 export function FormCustomerAddress() {
 	return (
 		<form className={styles.form}>
-			<h2>Twój adres</h2>
+			<h2 className={styles.heading}>Twój adres zamieszkania</h2>
 			<div className={styles.inputContainer}>
 				<label htmlFor="street">ULICA</label>
 				<input
 					type="text"
 					id="street"
 					name="street"
-					placeholder="Wprowadź nazwę ulicy"
+					placeholder="Wprowadź nazwę ulicy..."
 					required
+					className={styles.streetInput}
 				/>
 			</div>
-			<div>
-				<div>
+			<div className={styles.inputsFlexContainer}>
+				<div className={styles.inputContainer}>
 					<div className={styles.inputContainer}>
 						<label htmlFor="houseNumber">NUMER DOMU</label>
 						<input
@@ -37,10 +38,10 @@ export function FormCustomerAddress() {
 							title="Format: XX-XXX"
 							required
 						/>
-						<span>Format: XX-XXX</span>
+						<span className={styles.format}>Format: XX-XXX</span>
 					</div>
 				</div>
-				<div>
+				<div className={styles.inputContainer}>
 					<div className={styles.inputContainer}>
 						<label htmlFor="apartmentNumber">NUMER LOKALU</label>
 						<input
@@ -57,20 +58,20 @@ export function FormCustomerAddress() {
 							type="text"
 							id="city"
 							name="city"
-							placeholder="Wprowadź miejscowość"
+							placeholder="Wprowadź miejscowość..."
 							required
 						/>
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className={styles.inputsFlexContainer}>
 				<div className={styles.inputContainer}>
 					<label htmlFor="country">KRAJ</label>
 					<input
 						type="text"
 						id="country"
 						name="country"
-						placeholder="Wprowadź kraj"
+						placeholder="Wprowadź kraj..."
 						required
 					/>
 				</div>
@@ -80,12 +81,12 @@ export function FormCustomerAddress() {
 						type="text"
 						id="phone"
 						name="phone"
-						placeholder="Wprowadź numer telefonu"
+						placeholder="Wprowadź numer telefonu..."
 						pattern="[0-9]{9}"
 						title="Format: XXXXXXXXX"
 						required
 					/>
-					<span>Format: XXXXXXXXX</span>
+					<span className={styles.format}>Format: XXXXXXXXX</span>
 				</div>
 			</div>
 		</form>
