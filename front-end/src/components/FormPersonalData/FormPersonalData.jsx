@@ -7,7 +7,7 @@ export function FormPersonalData() {
             <h2>Informacje dotyczące danych osobowych</h2>
 				<div className={styles.personalDataContainer}>
 					<div className={styles.inputContainer}>
-						<label htmlFor="name">IMIĘ:</label>
+						<label htmlFor="name">IMIĘ</label>
 						<input
 							type="text"
 							id="name"
@@ -16,7 +16,7 @@ export function FormPersonalData() {
 						/>
 					</div>
 					<div className={styles.inputContainer}>
-						<label htmlFor="surname">NAZWISKO:</label>
+						<label htmlFor="surname">NAZWISKO</label>
 						<input
 							type="text"
 							id="surname"
@@ -26,7 +26,7 @@ export function FormPersonalData() {
 					</div>
 				</div>
 				<div className={styles.inputContainer}>
-					<label htmlFor="email">ADRES E-MAIL:</label>
+					<label htmlFor="email">ADRES E-MAIL</label>
 					<input
 						type="email"
 						id="email"
