@@ -17,4 +17,11 @@
 .checkbox {
     width: 1rem;
     align-self: start;
+	cursor: pointer;
+}
+
+.blueSpan {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
 }
