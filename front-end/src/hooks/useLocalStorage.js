@@ -19,6 +19,7 @@ export function useLocalStorage(key, defaultValue) {
 	function removeDataFromLocalStorage() {
 		setData(defaultValue);
 		localStorage.removeItem[key];
+		
 	}
 
 	return [data, setJSONTOLocalStorage, removeDataFromLocalStorage];

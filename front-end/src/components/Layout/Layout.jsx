@@ -23,11 +23,13 @@ export function Layout() {
 	function addProductToCart(product) {
 		const newState = [...cartItems, product];
 		setCartItems(newState);
+		console.log('2')
 	}
 
 	function deleteProductFromCart(product) {
 		const newState = cartItems.filter((item) => item.id !== product.id);
 		setCartItems(newState);
+		console.log('1')
 	}
 
 	return (
