@@ -26,6 +26,9 @@ export function Layout() {
 		console.log("2");
 	}
 
+	
+
+
 	return (
 		<>
 			<CartContext.Provider value={[cartItems, addProductToCart]}>
