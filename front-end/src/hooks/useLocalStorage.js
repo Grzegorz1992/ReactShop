@@ -15,10 +15,11 @@ export function useLocalStorage(key, defaultValue) {
 		setData(newData);
 		localStorage[key] = JSON.stringify(newData);
 	}
-
+	function removeJSONFromLocalStorage() {
+		setData(defaultValue);
+		localStorage.removeItem(key);
+	}
 	
 
-	
-
-	return [data, setJSONTOLocalStorage];
+	return [data, setJSONTOLocalStorage, removeJSONFromLocalStorage];
 }

@@ -21,17 +21,41 @@ export function Layout() {
 	const [cartItems, setCartItems] = useLocalStorage("cart_products", []);
 
 	function addProductToCart(product) {
-		const newState = [...cartItems, product];
-		setCartItems(newState);
-		console.log("2");
+		const existingProductIndex = cartItems.findIndex(
+			(item) => item.id === product.id
+		);
+
+		if (existingProductIndex !== -1) {
+			const updatedCartItems = [...cartItems];
+			updatedCartItems[existingProductIndex].quantity += 1;
+			setCartItems(updatedCartItems);
+		} else {
+			const newCartItems = [...cartItems, { ...product, quantity: 1 }];
+			setCartItems(newCartItems);
+		}
 	}
 
-	
+	function deleteProductFromCart(product) {
+		const existingProductIndex = cartItems.findIndex(
+			(item) => item.id === product.id
+		);
 
+		if (existingProductIndex !== -1) {
+			const updatedCartItems = [...cartItems];
+			if (updatedCartItems[existingProductIndex].quantity > 1) {
+				updatedCartItems[existingProductIndex].quantity -= 1;
+			} else {
+				updatedCartItems.splice(existingProductIndex, 1);
+			}
+			setCartItems(updatedCartItems);
+		}
+	}
 
 	return (
 		<>
-			<CartContext.Provider value={[cartItems, addProductToCart]}>
+			<CartContext.Provider
+				value={[cartItems, addProductToCart, deleteProductFromCart]}
+			>
 				<CurrencyContext.Provider value={[currency, setCurrency]}>
 					<MainContent>
 						<TopBar>
