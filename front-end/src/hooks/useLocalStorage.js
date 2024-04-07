@@ -16,11 +16,7 @@ export function useLocalStorage(key, defaultValue) {
 		localStorage[key] = JSON.stringify(newData);
 	}
 
-	function removeDataFromLocalStorage() {
-		setData(defaultValue);
-		localStorage.removeItem[key];
-		
-	}
+	
 
-	return [data, setJSONTOLocalStorage, removeDataFromLocalStorage];
+	return [data, setJSONTOLocalStorage];
 }
