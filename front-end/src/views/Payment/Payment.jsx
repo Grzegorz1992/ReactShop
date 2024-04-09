@@ -1,3 +1,10 @@
+import { FormShipment } from "../../components/FormShipment/FormShipment";
+import { FormContainer } from "../../components/FormContainer/FormContainer";
+
 export function Payment() {
-    return <h2>Platnosc</h2>
+	return (
+		<FormContainer>
+			<FormShipment />
+		</FormContainer>
+	);
 }
