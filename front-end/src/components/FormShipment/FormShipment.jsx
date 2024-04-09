@@ -1,16 +1,17 @@
 import styles from "./FormShipment.module.css";
 import VIAPOST from "../../assets/post.svg";
 import DEMISEND from "../../assets/post2.svg";
-import SHOP from "../../assets/shop.svg";
 
 export function FormShipment() {
 	return (
 		<>
 			<form className={styles.form}>
-				<h2 className={styles.heading}>Metoda wysyłki</h2>
+				<div>
+					<h2 className={styles.heading}>Metoda wysyłki</h2>
+				</div>
 				<div className={styles.inputContainer}>
 					<input
-						className={styles.checkbox}
+						className={styles.radio}
 						type="radio"
 						id="shipment"
 						name="shipment"
@@ -20,7 +21,7 @@ export function FormShipment() {
 				</div>
 				<div className={styles.inputContainer}>
 					<input
-						className={styles.checkbox}
+						className={styles.radio}
 						type="radio"
 						id="shipment"
 						name="shipment"
@@ -30,13 +31,12 @@ export function FormShipment() {
 				</div>
 				<div className={styles.inputContainer}>
 					<input
-						className={styles.checkbox}
+						className={styles.radio}
 						type="radio"
 						id="shipment"
 						name="shipment"
 					/>
 					<label htmlFor="shipment">ODBIÓR W SKLEPIE</label>
-					<img src={SHOP} />
 				</div>
 			</form>
 		</>
