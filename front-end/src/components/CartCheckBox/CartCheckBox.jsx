@@ -1,11 +1,13 @@
-import styles from "./CartCheckBox.module.css";
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
+import styles from "./CartCheckBox.module.css";
+import { Link } from "react-router-dom";
+
 export function CartCheckBox() {
 	return (
 		<>
 			<div className={styles.checkboxContainer}>
 				<div className={styles.inputContainer}>
-				<h2 className={styles.heading}>Ochrona danych</h2>
+					<h2 className={styles.heading}>Ochrona danych</h2>
 					<input
 						className={styles.checkbox}
 						type="checkbox"
@@ -13,8 +15,8 @@ export function CartCheckBox() {
 						name="dataPrivacy"
 					/>
 					<label htmlFor="dataPrivacy">
-						Akceptuję <span className={styles.blueSpan}>Regulamin sklepu</span> i
-						zapoznałem się z{" "}
+						Akceptuję <span className={styles.blueSpan}>Regulamin sklepu</span>{" "}
+						i zapoznałem się z{" "}
 						<span className={styles.blueSpan}>Polityką Prywatności.</span> Przed
 						wysłaniem nam swoich danych, koniecznie zapoznaj się z{" "}
 						<span className={styles.blueSpan}>Polityką Prywatności</span>, w
@@ -25,7 +27,7 @@ export function CartCheckBox() {
 					</label>
 				</div>
 				<div className={styles.inputContainer}>
-				<h2 className={styles.heading}>Newsletter</h2>
+					<h2 className={styles.heading}>Newsletter</h2>
 					<input
 						className={styles.checkbox}
 						type="checkbox"
@@ -39,8 +41,10 @@ export function CartCheckBox() {
 						zapoznałem się z{" "}
 						<span className={styles.blueSpan}>Polityką Prywatności</span>.
 					</label>
+					<Link to={"/platnosc"}>
+						<FullWidthButton>PRZEJDŹ DALEJ</FullWidthButton>
+					</Link>
 				</div>
-				<FullWidthButton>PRZEJDŹ DALEJ</FullWidthButton>
 			</div>
 		</>
 	);

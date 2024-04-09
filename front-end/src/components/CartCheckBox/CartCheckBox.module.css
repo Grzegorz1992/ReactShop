@@ -6,17 +6,16 @@
 	text-align: justify;
 }
 
-
-
 .inputContainer {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+	max-width: 60rem;
 }
 
 .checkbox {
-    width: 1rem;
-    align-self: start;
+	width: 1rem;
+	align-self: start;
 	cursor: pointer;
 }
 

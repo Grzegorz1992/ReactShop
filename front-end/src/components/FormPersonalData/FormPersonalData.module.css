@@ -1,6 +1,6 @@
 .formsContainer {
 	display: flex;
-	
+	gap: 2rem;
 }
 
 .form {
@@ -48,16 +48,6 @@ h2 {
 label {
 	color: var(--color-text-default);
 }
-
-
-
-
-
-
-
-
-
-
 
 .streetInput {
 	width: 31rem;
