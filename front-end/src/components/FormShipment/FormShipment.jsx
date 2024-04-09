@@ -23,6 +23,33 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
+					<label htmlFor="shipment">HAPPYDRIVE</label>
+				</div>
+				<div className={styles.inputContainer}>
+					<input
+						className={styles.radio}
+						type="radio"
+						id="shipment"
+						name="shipment"
+					/>
+					<label htmlFor="shipment">FLYPACK</label>
+				</div>
+				<div className={styles.inputContainer}>
+					<input
+						className={styles.radio}
+						type="radio"
+						id="shipment"
+						name="shipment"
+					/>
+					<label htmlFor="shipment">YOURSHIPMENT</label>
+				</div>
+				<div className={styles.inputContainer}>
+					<input
+						className={styles.radio}
+						type="radio"
+						id="shipment"
+						name="shipment"
+					/>
 					<label htmlFor="shipment">DEMISEND</label>
 				</div>
 				<div className={styles.inputContainer}>
