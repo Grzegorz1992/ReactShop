@@ -1,6 +1,4 @@
 import styles from "./FormShipment.module.css";
-import VIAPOST from "../../assets/post.svg";
-import DEMISEND from "../../assets/post2.svg";
 
 export function FormShipment() {
 	return (
@@ -17,7 +15,6 @@ export function FormShipment() {
 						name="shipment"
 					/>
 					<label htmlFor="shipment">VIAPOST</label>
-					<img src={VIAPOST} />
 				</div>
 				<div className={styles.inputContainer}>
 					<input
@@ -27,7 +24,6 @@ export function FormShipment() {
 						name="shipment"
 					/>
 					<label htmlFor="shipment">DEMISEND</label>
-					<img src={DEMISEND} />
 				</div>
 				<div className={styles.inputContainer}>
 					<input
