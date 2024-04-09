@@ -1,16 +1,16 @@
 .checkboxContainer {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	gap: 2rem;
-	margin-top: 3rem;
-	padding: 1rem;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	text-align: justify;
 }
 
 
 
 .inputContainer {
 	display: flex;
+	flex-direction: column;
 	gap: 0.5rem;
 }
 
@@ -24,4 +24,8 @@
 	color: blue;
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+.heading {
+	font-size: 1rem;
 }

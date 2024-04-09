@@ -1,3 +1,8 @@
+.formsContainer {
+	display: flex;
+	
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
@@ -42,4 +47,35 @@ h2 {
 
 label {
 	color: var(--color-text-default);
+}
+
+
+
+
+
+
+
+
+
+
+
+.streetInput {
+	width: 31rem;
+}
+
+.inputsFlexContainer {
+	display: flex;
+	gap: 1rem;
+}
+
+.heading {
+	font-size: 1.6rem;
+	margin-right: auto;
+}
+
+.format {
+	background-color: #ffde00;
+	padding: 0.4rem;
+	color: #9b8e3b;
+	font-size: 0.8rem;
 }

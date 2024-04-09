@@ -4,8 +4,8 @@ export function CartCheckBox() {
 	return (
 		<>
 			<div className={styles.checkboxContainer}>
-				<h2>Ochrona danych</h2>
 				<div className={styles.inputContainer}>
+				<h2 className={styles.heading}>Ochrona danych</h2>
 					<input
 						className={styles.checkbox}
 						type="checkbox"
@@ -24,8 +24,8 @@ export function CartCheckBox() {
 						informacje, które dotyczą ochrony Twoich danych osobowych.
 					</label>
 				</div>
-				<h2>Newsletter</h2>
 				<div className={styles.inputContainer}>
+				<h2 className={styles.heading}>Newsletter</h2>
 					<input
 						className={styles.checkbox}
 						type="checkbox"
