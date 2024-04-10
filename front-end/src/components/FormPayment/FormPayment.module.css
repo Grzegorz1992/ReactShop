@@ -1,0 +1,29 @@
+.inputContainer {
+	display: flex;
+	padding: 0.5rem;
+	font-weight: bold;
+    border: 1.2px solid #c2c1c1;
+    text-transform: uppercase;
+	
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 1rem;
+	border: 1.2px solid #c2c1c1;
+	margin: 3rem;
+}
+
+.radio {
+	width: 3rem;
+}
+
+.heading {
+	font-size: 1.2rem;
+}
+
+.label {
+    color: rgb(41, 41, 148);
+}
