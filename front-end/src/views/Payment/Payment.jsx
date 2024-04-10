@@ -1,10 +1,12 @@
 import { FormShipment } from "../../components/FormShipment/FormShipment";
-import { FormContainer } from "../../components/FormContainer/FormContainer";
+import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
+import { FormPaymanet } from "../../components/FormPayment/FormPayment";
 
 export function Payment() {
 	return (
-		<FormContainer>
+		<FlexContainer>
 			<FormShipment />
-		</FormContainer>
+			<FormPaymanet />
+		</FlexContainer>
 	);
 }
