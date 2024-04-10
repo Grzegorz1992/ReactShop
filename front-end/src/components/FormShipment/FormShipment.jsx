@@ -14,7 +14,9 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
-					<label htmlFor="shipment">VIAPOST</label>
+					<label className={styles.label} htmlFor="shipment">
+						VIAPOST
+					</label>
 				</div>
 				<div className={styles.inputContainer}>
 					<input
@@ -23,7 +25,9 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
-					<label htmlFor="shipment">HAPPYDRIVE</label>
+					<label className={styles.label} htmlFor="shipment">
+						HAPPYDRIVE
+					</label>
 				</div>
 				<div className={styles.inputContainer}>
 					<input
@@ -32,7 +36,9 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
-					<label htmlFor="shipment">FLYPACK</label>
+					<label className={styles.label} htmlFor="shipment">
+						FLYPACK
+					</label>
 				</div>
 				<div className={styles.inputContainer}>
 					<input
@@ -41,7 +47,9 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
-					<label htmlFor="shipment">YOURSHIPMENT</label>
+					<label className={styles.label} htmlFor="shipment">
+						YOURSHIPMENT
+					</label>
 				</div>
 				<div className={styles.inputContainer}>
 					<input
@@ -50,7 +58,9 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
-					<label htmlFor="shipment">DEMISEND</label>
+					<label className={styles.label} htmlFor="shipment">
+						DEMISEND
+					</label>
 				</div>
 				<div className={styles.inputContainer}>
 					<input
@@ -59,7 +69,9 @@ export function FormShipment() {
 						id="shipment"
 						name="shipment"
 					/>
-					<label htmlFor="shipment">ODBIÓR W SKLEPIE</label>
+					<label className={styles.label} htmlFor="shipment">
+						ODBIÓR W SKLEPIE
+					</label>
 				</div>
 			</form>
 		</>
