@@ -36,36 +36,44 @@ export function PaymentSummary({ products }) {
 
 	return (
 		<div className={styles.cartSummary}>
-			<h2>Podsumowanie</h2>
+			<h2 className={styles.heading}>Podsumowanie</h2>
 			<div className={styles.cartRow}>
-				<p>Wartość produktów: </p>
-				<p>
-					{sum}
-					{currencySign}
+				<p>Suma częściowa </p>
+				<p className={styles.resumeRow}>
+					{sum} {currencySign}
 				</p>
 			</div>
 			<div className={styles.cartRow}>
-				<p>Koszt dostawy:</p>
-				<p>
-					{sum > minSumForFreeDelivery ? 0 : deliveryCost}
-					{currencySign}
+				<p>Koszt dostawy</p>
+				<p className={styles.resumeRow}>
+					{sum > minSumForFreeDelivery ? 0 : deliveryCost} {currencySign}
 				</p>
 			</div>
 			<div className={`${styles.cartRow} ${styles.cartSummaryRow}`}>
-				<p>Do zapłaty:</p>
-				<p>
-					{totalCost}
-					{currencySign}
+				<p>Suma całkowita</p>
+				<p className={styles.resumeRow}>
+					{totalCost} {currencySign}
 				</p>
 			</div>
+			<div className={styles.cartCheck}>
+				<input
+					className={styles.checkbox}
+					type="checkbox"
+					id="dataPrivacy"
+					name="dataPrivacy"
+				/>
+				<label htmlFor="dataPrivacy">
+					Akceptuję <span className={styles.blueSpan}>Regulamin</span> i{" "}
+					<span className={styles.blueSpan}>Politykę Prywatności.</span>
+				</label>
+			</div>
 
-			<FullWidthButton isBlack={true}>Do kasy</FullWidthButton>
+			<FullWidthButton isBlack={true}>ZAMÓW I ZAPŁAĆ</FullWidthButton>
 
 			<div className={styles.deliveryInfo}>
 				<img src={CAR_ICON} alt="Car Icon" />
 				<p>
-					Darmowa dostawa od {minSumForFreeDelivery}
-					{currencySign}
+					Darmowa dostawa od {minSumForFreeDelivery} {currencySign}
 				</p>
 			</div>
 		</div>
