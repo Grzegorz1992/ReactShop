@@ -1,0 +1,8 @@
+.cartSummary {
+	flex-direction: column;
+	gap: 2rem;
+    margin: 3rem;
+    border: 1.2px solid #c2c1c1;
+    padding: 1rem;
+    display: flex;
+}
