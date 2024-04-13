@@ -11,10 +11,10 @@ export function FormShipment() {
 					<input
 						className={styles.radio}
 						type="radio"
-						id="shipment"
-						name="shipment"
+						id="viapost"
+						name="viapost"
 					/>
-					<label className={styles.label} htmlFor="shipment">
+					<label className={styles.label} htmlFor="viapost">
 						VIAPOST
 					</label>
 				</div>
@@ -22,10 +22,10 @@ export function FormShipment() {
 					<input
 						className={styles.radio}
 						type="radio"
-						id="shipment"
-						name="shipment"
+						id="happydrive"
+						name="happydrive"
 					/>
-					<label className={styles.label} htmlFor="shipment">
+					<label className={styles.label} htmlFor="happydrive">
 						HAPPYDRIVE
 					</label>
 				</div>
@@ -33,10 +33,10 @@ export function FormShipment() {
 					<input
 						className={styles.radio}
 						type="radio"
-						id="shipment"
-						name="shipment"
+						id="yourshipment"
+						name="yourshipment"
 					/>
-					<label className={styles.label} htmlFor="shipment">
+					<label className={styles.label} htmlFor="yourshipment">
 						YOURSHIPMENT
 					</label>
 				</div>
@@ -44,10 +44,10 @@ export function FormShipment() {
 					<input
 						className={styles.radio}
 						type="radio"
-						id="shipment"
-						name="shipment"
+						id="demisend"
+						name="demisend"
 					/>
-					<label className={styles.label} htmlFor="shipment">
+					<label className={styles.label} htmlFor="demisend">
 						DEMISEND
 					</label>
 				</div>
@@ -55,10 +55,10 @@ export function FormShipment() {
 					<input
 						className={styles.radio}
 						type="radio"
-						id="shipment"
-						name="shipment"
+						id="shoprecive"
+						name="shoprecive"
 					/>
-					<label className={styles.label} htmlFor="shipment">
+					<label className={styles.label} htmlFor="shoprecive">
 						ODBIÓR W SKLEPIE
 					</label>
 				</div>

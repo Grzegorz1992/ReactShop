@@ -9,10 +9,10 @@ export function FormPaymanet() {
 				<input
 					className={styles.radio}
 					type="radio"
-					id="payment"
-					name="paymnet"
+					id="paynow"
+					name="paynow"
 				/>
-				<label className={styles.label} htmlFor="payment">
+				<label className={styles.label} htmlFor="paynow">
 					PayNow
 				</label>
 			</div>
@@ -20,10 +20,10 @@ export function FormPaymanet() {
 				<input
 					className={styles.radio}
 					type="radio"
-					id="payment"
-					name="paymnet"
+					id="yourpay"
+					name="yourpay"
 				/>
-				<label className={styles.label} htmlFor="payment">
+				<label className={styles.label} htmlFor="yourpay">
 					YourPay
 				</label>
 			</div>
@@ -31,10 +31,10 @@ export function FormPaymanet() {
 				<input
 					className={styles.radio}
 					type="radio"
-					id="payment"
-					name="paymnet"
+					id="bankTransfer"
+					name="bankTransfer"
 				/>
-				<label className={styles.label} htmlFor="payment">
+				<label className={styles.label} htmlFor="bankTransfer">
 					Bank transfer
 				</label>
 			</div>
@@ -42,10 +42,10 @@ export function FormPaymanet() {
 				<input
 					className={styles.radio}
 					type="radio"
-					id="payment"
-					name="paymnet"
+					id="creditCard"
+					name="creditCard"
 				/>
-				<label className={styles.label} htmlFor="payment">
+				<label className={styles.label} htmlFor="creditCard">
 					Credit card
 				</label>
 			</div>
@@ -53,10 +53,10 @@ export function FormPaymanet() {
 				<input
 					className={styles.radio}
 					type="radio"
-					id="payment"
-					name="paymnet"
+					id="speedCash"
+					name="speedCash"
 				/>
-				<label className={styles.label} htmlFor="payment">
+				<label className={styles.label} htmlFor="speedCash">
 					SpeedCash
 				</label>
 			</div>
