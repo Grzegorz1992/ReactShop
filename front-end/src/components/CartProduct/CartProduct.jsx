@@ -1,12 +1,16 @@
 import styles from "./CartProduct.module.css";
 import REMOVE_ICON from "../../assets/remove.svg";
-import { Price } from "../Price/Price";
+import { CurrencyContext } from "../../contexts/CurrencyContext";
+import { CURRENCIES, CURRENCY_SIGN } from "../../constants/currencies";
 import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
 
 export function CartProduct({ product }) {
-	const price = <Price product={product} />;
+	const [currency] = useContext(CurrencyContext);
 	const [, , deleteProductFromCart] = useContext(CartContext);
+	const price =
+		(currency === CURRENCIES.PLN ? product.pricePLN : product.priceUSD) *
+		product.quantity;
 
 	return (
 		<div className={styles.favouriteProduct}>
@@ -21,6 +25,7 @@ export function CartProduct({ product }) {
 				<p className={styles.priceRow}>
 					<span>Cena: </span>
 					{price}
+					{CURRENCY_SIGN[currency]}
 				</p>
 				<p className={styles.quantityRow}>
 					<span>Ilość: </span>
