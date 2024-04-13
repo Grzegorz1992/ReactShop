@@ -6,12 +6,15 @@ import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 import { Accordion } from "../Accordion/Accordion";
 import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
-import { Price } from "../Price/Price";
+import { CurrencyContext } from "../../contexts/CurrencyContext";
+import { CURRENCIES, CURRENCY_SIGN } from "../../constants/currencies";
 
 export function Details({ product }) {
 	const [, addProductToCart] = useContext(CartContext);
+	const [currency] = useContext(CurrencyContext);
 
-	const price = <Price product={product} />;
+	const price =
+		currency === CURRENCIES.PLN ? product.pricePLN : product.priceUSD;
 
 	const accordionContent = [
 		{
@@ -28,7 +31,10 @@ export function Details({ product }) {
 		<div className={styles.details}>
 			<h2>{product.brand}</h2>
 			<p className={styles.productName}>{product.productName}</p>
-			<p className={styles.price}>{price}</p>
+			<p className={styles.price}>
+				{price}
+				{CURRENCY_SIGN[currency]}
+			</p>
 
 			<FullWidthButton
 				onClick={() => {
