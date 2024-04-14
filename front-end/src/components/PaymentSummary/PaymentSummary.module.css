@@ -47,3 +47,27 @@
 .heading {
 	font-size: 1.2rem;
 }
+
+.finishShopping {
+	text-transform: uppercase;
+	color: #056943;
+	position: relative;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+.xbutton {
+	position: absolute;
+	top: -15px;
+	background: none;
+	border: none;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		font-size: 1.4rem;
+	}
+}
