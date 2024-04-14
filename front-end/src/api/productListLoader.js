@@ -40,6 +40,6 @@ export function productListLoader({
 			});
 		});
 	} else {
-		return redirect("/kobieta");
+		return redirect("/mezczyzna");
 	}
 }

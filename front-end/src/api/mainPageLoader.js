@@ -6,6 +6,6 @@ export function mainPageLoader({ params }) {
     if (backEndPath) {
         return fetch(`${BACK_END_URL}/${backEndPath}`);
     } else {
-        return redirect("/kobieta");
+        return redirect("/mezczyzna");
     }
 }
