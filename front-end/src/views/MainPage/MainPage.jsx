@@ -9,7 +9,7 @@ export function MainPage() {
         <>
             <Hero heroImage={heroImageUrl} />
             <Products
-                headerText="Sprawdź nasze bestsellery"
+                headerText="Bestsellery"
                 products={bestsellers}
             />
         </>
