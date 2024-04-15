@@ -21,7 +21,6 @@ export function CartSummary({ products }) {
 
 	const currencySign = CURRENCY_SIGN[currency];
 
-	
 	let sum = products.reduce((total, product) => {
 		return (
 			total +
@@ -33,7 +32,6 @@ export function CartSummary({ products }) {
 	const deliveryCost = deliveryCosts[currency];
 	const minSumForFreeDelivery = minSumsForFreeDelivery[currency];
 
-	
 	const totalCost = sum > minSumForFreeDelivery ? sum : sum + deliveryCost;
 
 	return (
@@ -42,22 +40,19 @@ export function CartSummary({ products }) {
 			<div className={styles.cartRow}>
 				<p>Wartość produktów: </p>
 				<p>
-					{sum}
-					{currencySign}
+					{sum} {currencySign}
 				</p>
 			</div>
 			<div className={styles.cartRow}>
 				<p>Koszt dostawy:</p>
 				<p>
-					{sum > minSumForFreeDelivery ? 0 : deliveryCost}
-					{currencySign}
+					{sum > minSumForFreeDelivery ? 0 : deliveryCost} {currencySign}
 				</p>
 			</div>
 			<div className={`${styles.cartRow} ${styles.cartSummaryRow}`}>
 				<p>Do zapłaty:</p>
 				<p>
-					{totalCost}
-					{currencySign}
+					{totalCost} {currencySign}
 				</p>
 			</div>
 			<Link to={"/zamowienie"}>
@@ -66,8 +61,7 @@ export function CartSummary({ products }) {
 			<div className={styles.deliveryInfo}>
 				<img src={CAR_ICON} alt="Car Icon" />
 				<p>
-					Darmowa dostawa od {minSumForFreeDelivery}
-					{currencySign}
+					Darmowa dostawa od {minSumForFreeDelivery} {currencySign}
 				</p>
 			</div>
 		</div>

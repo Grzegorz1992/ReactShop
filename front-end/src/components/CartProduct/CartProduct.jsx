@@ -20,14 +20,15 @@ export function CartProduct({ product }) {
 					<h3>
 						{product.brand} {product.productName}
 					</h3>
-					<p>{price}</p>
+					<p>
+						{price} {CURRENCY_SIGN[currency]}
+					</p>
 				</div>
 				<p className={styles.priceRow}>
 					<span>Cena: </span>
-					{price}
-					{CURRENCY_SIGN[currency]}
+					{price} {CURRENCY_SIGN[currency]}
 				</p>
-				<p className={styles.quantityRow}>
+				<p className={styles.priceRow}>
 					<span>Ilość: </span>
 					{product.quantity}
 				</p>
