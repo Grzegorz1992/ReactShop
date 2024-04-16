@@ -10,7 +10,7 @@ export function FormPaymanet() {
 					className={styles.radio}
 					type="radio"
 					id="paynow"
-					name="paynow"
+					name="paymentMethod"
 				/>
 				<label className={styles.label} htmlFor="paynow">
 					PayNow
@@ -21,7 +21,7 @@ export function FormPaymanet() {
 					className={styles.radio}
 					type="radio"
 					id="yourpay"
-					name="yourpay"
+					name="paymentMethod"
 				/>
 				<label className={styles.label} htmlFor="yourpay">
 					YourPay
@@ -32,7 +32,7 @@ export function FormPaymanet() {
 					className={styles.radio}
 					type="radio"
 					id="bankTransfer"
-					name="bankTransfer"
+					name="paymentMethod"
 				/>
 				<label className={styles.label} htmlFor="bankTransfer">
 					Bank transfer
@@ -43,7 +43,7 @@ export function FormPaymanet() {
 					className={styles.radio}
 					type="radio"
 					id="creditCard"
-					name="creditCard"
+					name="paymentMethod"
 				/>
 				<label className={styles.label} htmlFor="creditCard">
 					Credit card
@@ -54,7 +54,7 @@ export function FormPaymanet() {
 					className={styles.radio}
 					type="radio"
 					id="speedCash"
-					name="speedCash"
+					name="paymentMethod"
 				/>
 				<label className={styles.label} htmlFor="speedCash">
 					SpeedCash

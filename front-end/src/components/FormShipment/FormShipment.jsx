@@ -12,7 +12,7 @@ export function FormShipment() {
 						className={styles.radio}
 						type="radio"
 						id="viapost"
-						name="viapost"
+						name="shipmentMethod"
 					/>
 					<label className={styles.label} htmlFor="viapost">
 						VIAPOST
@@ -23,7 +23,7 @@ export function FormShipment() {
 						className={styles.radio}
 						type="radio"
 						id="happydrive"
-						name="happydrive"
+						name="shipmentMethod"
 					/>
 					<label className={styles.label} htmlFor="happydrive">
 						HAPPYDRIVE
@@ -34,7 +34,7 @@ export function FormShipment() {
 						className={styles.radio}
 						type="radio"
 						id="yourshipment"
-						name="yourshipment"
+						name="shipmentMethod"
 					/>
 					<label className={styles.label} htmlFor="yourshipment">
 						YOURSHIPMENT
@@ -45,7 +45,7 @@ export function FormShipment() {
 						className={styles.radio}
 						type="radio"
 						id="demisend"
-						name="demisend"
+						name="shipmentMethod"
 					/>
 					<label className={styles.label} htmlFor="demisend">
 						DEMISEND
@@ -56,7 +56,7 @@ export function FormShipment() {
 						className={styles.radio}
 						type="radio"
 						id="shoprecive"
-						name="shoprecive"
+						name="shipmentMethod"
 					/>
 					<label className={styles.label} htmlFor="shoprecive">
 						ODBIÓR W SKLEPIE
