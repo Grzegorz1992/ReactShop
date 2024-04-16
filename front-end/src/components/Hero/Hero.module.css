@@ -8,10 +8,20 @@
 	margin-top: 5rem;
 	padding: 3rem 5rem;
 	display: inline-block;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.7);
+	font-weight: bold;
 }
 
 .contentWrapper p {
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+}
+
+.promo {
+	color:rgb(0, 143, 0);
+	font-size: 3rem;
+}
+
+.heading {
+	font-size: 1.5rem;
 }

@@ -1,4 +1,4 @@
-body {
+/* body {
 	--font-size-default: 16px;
 	--font-family-default: Helvetica, Arial, sans-serif;
 
@@ -8,5 +8,18 @@ body {
 	--color-white: #ffffff;
 	--color-grey: #f4f4f4;
 	--color-theme-main: #056943;
+	--color-price: #c60c0c;
+} */
+
+body {
+	--font-size-default: 16px;
+	--font-family-default: Helvetica, Arial, sans-serif;
+
+	--color-text-default: #222020;
+	--color-text-grey: #7a7a7a;
+	--color-yellow: #fff2e1;
+	--color-white: #ffffff;
+	--color-grey: #f4f4f4;
+	--color-theme-main: #a79277;
 	--color-price: #c60c0c;
 }

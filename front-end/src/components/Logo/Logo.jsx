@@ -5,7 +5,7 @@ export function Logo() {
 	return <>
     <h1 className={styles.logo}>
 			WEARHOUSE
-         <img src={LOGO} />
+         <img className={styles.logoIcon} src={LOGO} />
 		</h1>
     </>
 		

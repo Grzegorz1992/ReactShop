@@ -12,8 +12,8 @@ export function Hero({ heroImage }) {
 		>
 			<CenteredContent>
 				<div className={style.contentWrapper}>
-					<h2>Letnie promocje do -70%!</h2>
-					<p>Tylko najlepsze okazje!</p>
+					<h2 className={style.heading}>Letnie promocje do <span className={style.promo}>-70%</span></h2>
+					<p>Tylko najlepsze okazje</p>
 					<NavLink to={`/${params.gender}/odziez`}>
 						<FullWidthButton>Sprawdź produkty</FullWidthButton>
 					</NavLink>

@@ -42,7 +42,7 @@ export function CartCheckBox() {
 						<span className={styles.blueSpan}>Polityką Prywatności</span>.
 					</label>
 					<Link to={"/platnosc"}>
-						<FullWidthButton>PRZEJDŹ DALEJ</FullWidthButton>
+						<FullWidthButton isBlack={true}>PRZEJDŹ DALEJ</FullWidthButton>
 					</Link>
 				</div>
 			</div>

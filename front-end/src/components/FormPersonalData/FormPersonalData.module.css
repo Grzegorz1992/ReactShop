@@ -64,8 +64,8 @@ label {
 }
 
 .format {
-	background-color: #ffde00;
+	background-color: var(--color-theme-main);
 	padding: 0.4rem;
-	color: #9b8e3b;
+	color: var(--color-text-default);
 	font-size: 0.8rem;
 }
