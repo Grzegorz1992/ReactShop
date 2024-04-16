@@ -41,10 +41,6 @@ input:focus {
 	width: 31rem;
 }
 
-h2 {
-	font-size: 1.6rem;
-}
-
 label {
 	color: var(--color-text-default);
 }
@@ -59,7 +55,7 @@ label {
 }
 
 .heading {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	margin-right: auto;
 }
 
