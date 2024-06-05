@@ -18,3 +18,17 @@
 	width: 500px;
 	height: 700px;
 }
+
+@media only screen and (max-width: 900px) {
+	.mainPhoto {
+		width: 300px;
+		height: 400px;
+	}
+
+	.thumbnails {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+	
+}
