@@ -1,4 +1,4 @@
-Ten folder zawiera prosty serwer, dzięki któremu będziemy mogli odczytać listę folderów oraz notatek. Umożliwia on też tworzenie nowych folderów i notatek oraz edycje już isniejących notatek.
+Ten folder zawiera prosty sewer, dzięki któremu będziemy mogli odczytać listę folderów oraz notatek. Umożliwia on też tworzenie nowych folderów i notatek oraz edycje już isniejących notatek.
 
 Żeby uruchomić server wywołaj w terminalu na poziomie folderu `back-end` komendy:
 
