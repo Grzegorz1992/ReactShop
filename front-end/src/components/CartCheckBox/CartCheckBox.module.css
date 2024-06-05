@@ -28,3 +28,37 @@
 .heading {
 	font-size: 1rem;
 }
+
+@media only screen and (max-width: 900px) {
+	.checkboxContainer {
+		display: flex;
+		gap: 2rem;
+		padding: 1.2rem;
+		font-size: 0.6rem;
+		text-align: justify;
+		flex-direction: column;
+	}
+
+	.inputContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		max-width: 60rem;
+	}
+
+	.checkbox {
+		width: 1rem;
+		align-self: start;
+		cursor: pointer;
+	}
+
+	.blueSpan {
+		color: blue;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	.heading {
+		font-size: 0.8rem;
+	}
+}

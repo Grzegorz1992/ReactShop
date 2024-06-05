@@ -65,3 +65,67 @@ label {
 	color: var(--color-text-default);
 	font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 900px) {
+	.formsContainer {
+		display: flex;
+		gap: 2rem;
+		flex-direction: column;
+	}
+	.form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+		margin-top: 3rem;
+		padding: 1rem;
+	}
+
+	.personalDataContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.inputContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	input {
+		padding: 1rem;
+		width: max-content;
+		border: 1.2px solid #c2c1c1;
+	}
+
+
+	.emailInput {
+		width: max-content;
+	}
+
+	label {
+		color: var(--color-text-default);
+	}
+
+	.streetInput {
+		width: max-content;
+	}
+
+	.inputsFlexContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.heading {
+		font-size: 1.2rem;
+	}
+
+	.format {
+		background-color: var(--color-theme-main);
+		padding: 0.4rem;
+		color: var(--color-text-default);
+		font-size: 0.8rem;
+	}
+}
