@@ -28,19 +28,20 @@ export function CartProduct({ product }) {
 					<span>Cena: </span>
 					{price} {CURRENCY_SIGN[currency]}
 				</p>
-				<p className={styles.priceRow}>
-					<span>Ilość: </span>
-					{product.quantity}
-				</p>
-				<div className={styles.buttonRow}>
-					<button
-						onClick={() => {
-							deleteProductFromCart(product);
-						}}
-					>
-						<img src={REMOVE_ICON} alt="Usuń" />
-						Usuń
-					</button>
+				<div className={styles.lowBar}>
+					<p className={styles.priceRow}>
+						<span>Ilość: </span>
+						{product.quantity}
+					</p>
+					<div className={styles.buttonRow}>
+						<button
+							onClick={() => {
+								deleteProductFromCart(product);
+							}}
+						>
+							<img src={REMOVE_ICON} alt="Usuń" />
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>

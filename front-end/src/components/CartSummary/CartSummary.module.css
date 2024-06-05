@@ -28,3 +28,17 @@
 	font-weight: 700;
     background-color: var(--color-grey);
 }
+
+@media only screen and (max-width: 900px) {
+	.cartSummary {
+		display: flex;
+		flex-direction: column;
+		padding-right: 1rem;
+		margin-top: 1rem;
+		gap: 1rem;
+		width: auto;
+		margin-left: 1rem;
+	
+	}
+	
+}

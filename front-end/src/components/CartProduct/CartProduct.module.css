@@ -51,3 +51,40 @@
 	width: 1rem;
 	height: 1rem;
 }
+
+.lowBar {
+	display: flex;
+	gap: 2rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	.favouriteProduct img {
+		width: 65px;
+		height: 100px;
+	}
+
+	.topRow {
+		display: flex;
+		justify-content: space-between;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		font-weight: 700;
+	}
+	.topRow h3 {
+		display: flex;
+		justify-content: space-between;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		font-weight: 700;
+	}
+
+	.favouriteProductInfo {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		gap: 0.6rem;
+	}
+	
+}
