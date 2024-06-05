@@ -59,7 +59,7 @@ export function FormShipment() {
 						name="shipmentMethod"
 					/>
 					<label className={styles.label} htmlFor="shoprecive">
-						ODBIÓR W SKLEPIE
+						PDN
 					</label>
 				</div>
 			</form>

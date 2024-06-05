@@ -50,7 +50,7 @@
 
 .finishShopping {
 	text-transform: uppercase;
-	color: #A79277;
+	color: #a79277;
 	position: relative;
 	padding: 0.5rem;
 	margin-top: 1rem;
@@ -69,5 +69,19 @@
 
 	&:hover {
 		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.cartRow {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 2rem;
+		padding: 0.5rem;
+		text-transform: uppercase;
+		align-self: flex-start;
+		border-bottom: 1.2px solid #c2c1c1;
+		width: auto;
 	}
 }

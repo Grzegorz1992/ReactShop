@@ -35,7 +35,7 @@ export function FormPaymanet() {
 					name="paymentMethod"
 				/>
 				<label className={styles.label} htmlFor="bankTransfer">
-					Bank transfer
+					Plaid
 				</label>
 			</div>
 			<div className={styles.inputContainer}>
