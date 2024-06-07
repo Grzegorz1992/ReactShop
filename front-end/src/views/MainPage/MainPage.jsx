@@ -3,15 +3,12 @@ import { Products } from "../../components/Products/Products";
 import { useLoaderData } from "react-router-dom";
 
 export function MainPage() {
-    const { bestsellers, heroImageUrl } = useLoaderData();
+	const { bestsellers=[], heroImageUrl } = useLoaderData();
 
-    return (
-        <>
-            <Hero heroImage={heroImageUrl} />
-            <Products
-                headerText="Bestsellery"
-                products={bestsellers}
-            />
-        </>
-    );
+	return (
+		<>
+			<Hero heroImage={heroImageUrl} />
+			<Products headerText="Bestsellery" products={bestsellers} />
+		</>
+	);
 }

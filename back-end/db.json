@@ -7,13 +7,13 @@
         "category": "obuwie",
         "subcategory": "eleganckie",
         "productName": "Szpilki",
-        "brand": "Mitisimi",
+        "brand": "Test producent",
         "pricePLN": 49,
         "priceUSD": 10,
         "photos": [
           "http://localhost:3000/product-photos/women-shoes-1.jpg",
           "http://localhost:3000/product-photos/women-shoes-2.jpg",
-          "http://localhost:3000/product-photos/women-shoes-2.jpg"
+          "http://localhost:3000/product-photos/women-shoes-3.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -23,13 +23,13 @@
         "gender": "women",
         "category": "obuwie",
         "subcategory": "eleganckie",
-        "productName": "Szpilki",
-        "brand": "Colagia",
+        "productName": "Szpilki 2",
+        "brand": "Inny proucent",
         "pricePLN": 149,
         "priceUSD": 39,
         "photos": [
           "http://localhost:3000/product-photos/women-shoes-2.jpg",
-          "http://localhost:3000/product-photos/women-shoes-2.jpg",
+          "http://localhost:3000/product-photos/women-shoes-3.jpg",
           "http://localhost:3000/product-photos/women-shoes-1.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
@@ -39,15 +39,15 @@
         "id": 28,
         "gender": "women",
         "category": "odziez",
-        "subcategory": "swetry",
+        "subcategory": "koszulki",
         "productName": "Biały Sweter",
         "brand": "Sun zi",
         "pricePLN": 299,
         "priceUSD": 59,
         "photos": [
           "http://localhost:3000/product-photos/women-sweater-1.jpg",
-          "http://localhost:3000/product-photos/women-sweater-1.jpg",
-          "http://localhost:3000/product-photos/women-sweater-1.jpg"
+          "http://localhost:3000/product-photos/women-trousers-2.jpg",
+          "http://localhost:3000/product-photos/women-trousers-1.jpg"
         ],
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -70,8 +70,6 @@
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
-    "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
     "heroImageUrl": "http://localhost:3000/product-photos/women.jpg"
   },
   "men": {
@@ -145,8 +143,6 @@
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
-    "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
     "heroImageUrl": "http://localhost:3000/product-photos/men.jpg"
   },
   "children": {
@@ -157,7 +153,7 @@
         "category": "obuwie",
         "subcategory": "eleganckie",
         "productName": "Piękne butki",
-        "brand": "JustKid",
+        "brand": "Producent 1",
         "pricePLN": 499,
         "priceUSD": 99,
         "photos": [
@@ -174,7 +170,7 @@
         "category": "obuwie",
         "subcategory": "sneakersy",
         "productName": "Szybkie butki",
-        "brand": "JustKid",
+        "brand": "Producent 2",
         "pricePLN": 199,
         "priceUSD": 39,
         "photos": [
@@ -220,8 +216,6 @@
         "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
-    "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
     "heroImageUrl": "http://localhost:3000/product-photos/children.jpg"
   },
   "products": [
@@ -656,30 +650,29 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Szpilki",
-      "brand": "JustW",
+      "brand": "Test producent",
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
         "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
         "http://localhost:3000/product-photos/women-shoes-2.jpg"
       ],
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum.",
-      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      "description": "Opis produktu pobrany z back endu ;)",
+      "maintenanceInfo": "Informacje o konserwacji pobrane z back-endu"
     },
     {
       "id": 27,
       "gender": "women",
       "category": "obuwie",
       "subcategory": "eleganckie",
-      "productName": "Szpilki",
-      "brand": "JustW",
+      "productName": "Szpilki 2",
+      "brand": "Inny proucent",
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-2.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-shoes-3.jpg",
+        "http://localhost:3000/product-photos/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -695,8 +688,8 @@
       "priceUSD": 59,
       "photos": [
         "http://localhost:3000/product-photos/women-sweater-1.jpg",
-        "http://localhost:3000/product-photos/women-sweater-1.jpg",
-        "http://localhost:3000/product-photos/women-sweater-1.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-trousers-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -712,8 +705,8 @@
       "priceUSD": 39,
       "photos": [
         "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg"
+        "http://localhost:3000/product-photos/women-trousers-2.jpg",
+        "http://localhost:3000/product-photos/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -724,13 +717,13 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Szpilki",
-      "brand": "Lanzani",
+      "brand": "Test producent",
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
         "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-2.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -739,7 +732,7 @@
       "id": 312,
       "gender": "women",
       "category": "odziez",
-      "subcategory": "swetry",
+      "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
       "pricePLN": 299,
@@ -756,7 +749,7 @@
       "id": 36,
       "gender": "women",
       "category": "odziez",
-      "subcategory": "swetry",
+      "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
       "pricePLN": 299,
@@ -780,8 +773,8 @@
       "priceUSD": 39,
       "photos": [
         "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg"
+        "http://localhost:3000/product-photos/women-trousers-2.jpg",
+        "http://localhost:3000/product-photos/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -791,14 +784,14 @@
       "gender": "women",
       "category": "obuwie",
       "subcategory": "eleganckie",
-      "productName": "Szpilki",
-      "brand": "Lanzani",
+      "productName": "Szpilki 2",
+      "brand": "Inny proucent",
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-2.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-shoes-3.jpg",
+        "http://localhost:3000/product-photos/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -807,7 +800,7 @@
       "id": 39,
       "gender": "women",
       "category": "odziez",
-      "subcategory": "swetry",
+      "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
       "pricePLN": 299,
@@ -831,8 +824,8 @@
       "priceUSD": 39,
       "photos": [
         "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg"
+        "http://localhost:3000/product-photos/women-trousers-2.jpg",
+        "http://localhost:3000/product-photos/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -843,13 +836,13 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Szpilki",
-      "brand": "Lanzani",
+      "brand": "Test producent",
       "pricePLN": 49,
       "priceUSD": 10,
       "photos": [
         "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-2.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-shoes-3.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -859,14 +852,14 @@
       "gender": "women",
       "category": "obuwie",
       "subcategory": "eleganckie",
-      "productName": "Szpilki",
-      "brand": "Lanzani",
+      "productName": "Szpilki 2",
+      "brand": "Inny proucent",
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-2.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-shoes-3.jpg",
+        "http://localhost:3000/product-photos/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -875,7 +868,7 @@
       "id": 43,
       "gender": "women",
       "category": "odziez",
-      "subcategory": "swetry",
+      "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
       "pricePLN": 299,
@@ -899,8 +892,8 @@
       "priceUSD": 39,
       "photos": [
         "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg"
+        "http://localhost:3000/product-photos/women-trousers-2.jpg",
+        "http://localhost:3000/product-photos/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -910,14 +903,14 @@
       "gender": "women",
       "category": "obuwie",
       "subcategory": "eleganckie",
-      "productName": "Szpilki",
-      "brand": "JustW",
+      "productName": "Szpilki 2",
+      "brand": "Inny proucent",
       "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-1.jpg",
-        "http://localhost:3000/product-photos/women-shoes-2.jpg"
+        "http://localhost:3000/product-photos/women-shoes-2.jpg",
+        "http://localhost:3000/product-photos/women-shoes-3.jpg",
+        "http://localhost:3000/product-photos/women-shoes-1.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -950,8 +943,8 @@
       "priceUSD": 39,
       "photos": [
         "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg",
-        "http://localhost:3000/product-photos/women-trousers-1.jpg"
+        "http://localhost:3000/product-photos/women-trousers-2.jpg",
+        "http://localhost:3000/product-photos/women-trousers-2.jpg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
@@ -962,7 +955,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -979,7 +972,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1030,7 +1023,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -1047,7 +1040,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1098,7 +1091,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -1115,7 +1108,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1166,7 +1159,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -1183,7 +1176,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1234,7 +1227,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -1251,7 +1244,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1302,7 +1295,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -1319,7 +1312,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1370,7 +1363,7 @@
       "category": "obuwie",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
-      "brand": "JustKid",
+      "brand": "Producent 1",
       "pricePLN": 499,
       "priceUSD": 99,
       "photos": [
@@ -1387,7 +1380,7 @@
       "category": "obuwie",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
-      "brand": "JustKid",
+      "brand": "Producent 2",
       "pricePLN": 199,
       "priceUSD": 39,
       "photos": [
@@ -1428,23 +1421,6 @@
         "http://localhost:3000/product-photos/children-trousers-2.jpg",
         "http://localhost:3000/product-photos/children-trousers-3.jpg",
         "http://localhost:3000/product-photos/children-trousers-1.jpg"
-      ],
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
-      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
-    },
-    {
-      "id": 75,
-      "gender": "men",
-      "category": "obuwie",
-      "subcategory": "eleganckie",
-      "productName": "buty eleganckie",
-      "brand": "Top Brand",
-      "pricePLN": 99,
-      "priceUSD": 25,
-      "photos": [
-        "http://localhost:3000/product-photos/man-shoes-1.jpeg",
-        "http://localhost:3000/product-photos/man-shoes-1.jpeg",
-        "http://localhost:3000/product-photos/man-shoes-1.jpeg"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"

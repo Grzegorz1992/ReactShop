@@ -4,3 +4,4 @@ export function Favourites() {
     const favouriteProducts = useLoaderData();
     return <FavouritesList favourites={favouriteProducts} />;
 }
+
