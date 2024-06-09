@@ -1,4 +1,4 @@
-# My E-commerce App
+# ReactShoop
 
 My E-commerce App is a web application built using React and Vite, allowing users to browse products, manage their cart and favorite items, and complete their orders. The backend of the application is based on db-json.
 
@@ -8,7 +8,6 @@ My E-commerce App is a web application built using React and Vite, allowing user
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Demo](#demo)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -30,21 +29,25 @@ My E-commerce App is a web application built using React and Vite, allowing user
 ### Steps
 
 1. Clone the repository to your local machine:
-   ```bash
 - git clone https://github.com/your-username/your-repo.git
 - cd your-repo
+
 2.Install dependencies:
   - npm install
+
 3.Start the application:
   - npm run dev
+
 ### Technologies Used 
 - React: A JavaScript library for building user interfaces.
 - React Router: A library for managing routing in React applications.
 - JavaScript: The programming language used for frontend logic.
 - Vite: A build tool for modern web applications.
 - db-json: A lightweight JSON server for prototyping APIs.
+
 ### Demo
-- [live](react-shop-front-end.vercel.app)
+- [live](https://react-shop-front-end.vercel.app)
+
 ### License
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
