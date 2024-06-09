@@ -2,11 +2,15 @@
 
 My E-commerce App is a web application built using React and Vite, allowing users to browse products, manage their cart and favorite items, and complete their orders. The backend of the application is based on db-json.
 
+## Used Technologies
+
+ <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" width="50" height="50"> <img src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" width="50" height="50">  <img src="https://github.com/marwin1991/profile-technology-icons/assets/62091613/b40892ef-efb8-4b0e-a6b5-d1cfc2f3fc35" alt="CSS3" width="50" height="50"> <img src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="Vite" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML5" width="50" height="50">
+
 ## Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
-- [Technologies Used](#technologies-used)
 - [Demo](#demo)
 - [License](#license)
 
@@ -28,22 +32,18 @@ My E-commerce App is a web application built using React and Vite, allowing user
 
 ### Steps
 
-1. Clone the repository to your local machine:
+Clone the repository to your local machine:
+
 - git clone https://github.com/your-username/your-repo.git
 - cd your-repo
 
-2.Install dependencies:
+Install dependencies:
+
   - npm install
 
-3.Start the application:
-  - npm run dev
+Start the application:
 
-### Technologies Used 
-- React: A JavaScript library for building user interfaces.
-- React Router: A library for managing routing in React applications.
-- JavaScript: The programming language used for frontend logic.
-- Vite: A build tool for modern web applications.
-- db-json: A lightweight JSON server for prototyping APIs.
+  - npm run dev
 
 ### Demo
 - [live](https://react-shop-front-end.vercel.app)
